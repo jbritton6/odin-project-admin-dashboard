@@ -131,14 +131,15 @@ button {
     padding: 20px;
 }
 
-.main-cards-title {
-    grid-column: span 2;
-}
-
 .main-cards {
     display: grid;
     gap: 20px;
     grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 20px auto;
+}
+
+.main-cards-title {
+    grid-column: span 2;
 }
 
 .card {
@@ -166,3 +167,10 @@ button {
     height: 15px;
     width: 15px;
 }
+
+.main-sidebar {
+    display: grid;
+    gap: 15px;
+    grid-template-rows: 20px auto 20px auto;
+}
+
