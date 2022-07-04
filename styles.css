@@ -82,6 +82,10 @@ button {
 
 
 
+
+
+
+
 .sidebar {
     background-color: #66BFBF;
     display: grid;
@@ -119,8 +123,22 @@ button {
 
 
 
-/*
 .main-content {
-    background-color: white;
+    background-color: #EAF6F6;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 6fr;
 }
-*/
+
+.main-cards-title {
+    grid-column: span 2;
+}
+
+.main-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.main-sidebar {
+    display: grid;
+}
