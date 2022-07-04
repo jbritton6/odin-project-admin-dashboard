@@ -15,7 +15,7 @@ body {
 
 
 .sidebar {
-    background-color: red;
+    background-color: #FF0063;
     display: grid;
     grid-template-rows: repeat(12, 32.5px) ;
     grid-row: 1 / 3;
