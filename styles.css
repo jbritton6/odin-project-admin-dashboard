@@ -174,3 +174,12 @@ button {
     grid-template-rows: 20px auto 20px auto;
 }
 
+.announcements-content {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+}
+
+.announcements-content > p:nth-child(3n+2) {
+    color: #66BFBF;
+    font-size: 10px;
+}
