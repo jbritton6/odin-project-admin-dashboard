@@ -29,7 +29,7 @@ body {
     background-color: #FFFFFF;
     display: grid;
     grid-template-columns: 50px auto 50px 50px 150px;
-    padding: 0 40px;
+    padding: 10px 40px;
 }
 
 .header-top-row img {
@@ -126,8 +126,10 @@ button {
 .main-content {
     background-color: #EAF6F6;
     display: grid;
+    gap: 15px;
     grid-template-columns: 3fr 1fr;
     grid-template-rows: 1fr 6fr;
+    padding: 20px;
 }
 
 .main-cards-title {
@@ -136,10 +138,19 @@ button {
 
 .main-cards {
     display: grid;
+    gap: 20px;
     grid-template-columns: repeat(2, 1fr);
 }
 
+.card {
+    background-color:#FFFFFF;
+    border-left: 7.5px solid #FF0063;
+    border-radius: 5px;
+    padding: 25px 15px;
+}
+
 .card > p:last-child {
+    color: #66BFBF;
     font-size: 10px;
 }
 
