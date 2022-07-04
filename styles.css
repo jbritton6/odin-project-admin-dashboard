@@ -33,10 +33,6 @@ body {
 }
 
 .header-top-row img {
-    /*
-    margin: auto;
-    place-content: center;
-    */
     width: 17.5px;
 }
 
@@ -92,6 +88,11 @@ button {
     grid-template-rows: repeat(12, 32.5px) ;
     grid-row: 1 / 3;
     padding: 10px;
+}
+
+.sidebar-item a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 .sidebar-item {
