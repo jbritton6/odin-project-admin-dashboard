@@ -191,7 +191,14 @@ button {
 }
 
 .trending-content {
+    align-items: center;
     background-color: #FFFFFF;
     border-radius: 5px;
+    display: grid;
     padding: 20px;
+}
+
+.trending-user {
+    display: grid;
+    grid-template-columns: 40px auto;
 }
