@@ -58,12 +58,14 @@ body {
     background-color: aliceblue;
     display: grid;
     grid-template-columns: 50px auto 50px 50px 150px;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 .header-top-row img {
+    /*
     margin: auto;
     place-content: center;
+    */
     width: 17.5px;
 }
 
@@ -79,7 +81,11 @@ input {
 }
 
 .header-bottom-row {
+    align-items: center;
     background-color: blueviolet;
+    display: grid;
+    grid-template-columns: 70px auto repeat(3, 100px);
+    padding: 0 40px;
 }
 
 
