@@ -28,7 +28,7 @@ body {
     align-items: center;
     background-color: #FFFFFF;
     display: grid;
-    grid-template-columns: 50px auto 50px 50px 150px;
+    grid-template-columns: 50px auto 50px 67.5px 150px;
     padding: 10px 40px;
 }
 
