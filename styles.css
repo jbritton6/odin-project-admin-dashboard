@@ -12,6 +12,8 @@ body {
     width: 100vw;
 }
 
+
+
 .sidebar {
     background-color: red;
     display: grid;
@@ -23,6 +25,15 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
+.sidebar-item:first-child > img {
+    width: 40px;
+}
+
+.sidebar-item img {
+    width: 20px;
+}
+
 
 .header {
     background-color: blue;
