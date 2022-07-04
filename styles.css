@@ -128,7 +128,6 @@ button {
     display: grid;
     gap: 15px;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 1fr 6fr;
     padding: 20px;
 }
 
@@ -146,14 +145,24 @@ button {
     background-color:#FFFFFF;
     border-left: 7.5px solid #FF0063;
     border-radius: 5px;
+    display: grid;
+    grid-template-rows: 40px auto 40px;
     padding: 25px 15px;
 }
 
-.card > p:last-child {
+.card > p + p {
     color: #66BFBF;
     font-size: 10px;
 }
 
-.main-sidebar {
+.card-icons {
+    align-self: end;
     display: grid;
+    grid-template-columns: repeat(3, 30px);
+    justify-content: end;
+}
+
+.card-icons img {
+    height: 15px;
+    width: 15px;
 }
