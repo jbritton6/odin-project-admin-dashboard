@@ -30,19 +30,18 @@ body {
     align-items: center;
 }
 
-.sidebar-item p {
-    font-weight: 900;
-}
-
 .sidebar-item img {
     margin: auto;
-    width: 20px;
+    width: 17.5px;
 }
 
 .sidebar-item:first-child > img {
-    width: 40px;
+    width: 35px;
 }
 
+.sidebar-item:first-child > p {
+    font-size: 20px;
+}
 
 
 
