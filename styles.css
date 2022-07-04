@@ -93,8 +93,9 @@ input {
     width: 50px;
 }
 
-.welcome-message {
-
+.welcome-message > p:first-child {
+    font-size: 10px;
+    padding-bottom: 5px;
 }
 
 button {
