@@ -139,6 +139,10 @@ button {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.card > p:last-child {
+    font-size: 10px;
+}
+
 .main-sidebar {
     display: grid;
 }
