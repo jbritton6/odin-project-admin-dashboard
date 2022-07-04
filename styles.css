@@ -55,6 +55,15 @@ body {
 
 .header-top-row {
     background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 30px auto 30px 30px 100px;
+}
+
+.icon {
+    background-color: red;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
 }
 
 .header-bottom-row {
