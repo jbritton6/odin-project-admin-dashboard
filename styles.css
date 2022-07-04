@@ -1,5 +1,6 @@
 * {
     font-family: Arial, sans-serif;
+    font-weight: 900;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +28,6 @@ body {
     color: #FFFFFF;
     display: grid;
     font-size: 15px;
-    font-weight: 900;
     grid-template-columns: 50px 1fr;
 }
 
@@ -93,13 +93,16 @@ input {
     width: 50px;
 }
 
+.welcome-message {
+
+}
+
 button {
     background-color: #66BFBF;
     border: none;
     border-radius: 15px;
     color: #FFFFFF;
     font-size: 12px;
-    font-weight: 900;
     height: 30px;
     width: 75px;
 }
