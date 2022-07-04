@@ -54,13 +54,16 @@ body {
 }
 
 .header-top-row {
+    align-items: center;
     background-color: aliceblue;
     display: grid;
-    grid-template-columns: 30px auto 30px 30px 100px;
+    grid-template-columns: 50px auto 50px 50px 150px;
+    padding: 0 20px;
 }
 
 .header-top-row img {
     margin: auto;
+    place-content: center;
     width: 17.5px;
 }
 
@@ -69,11 +72,6 @@ body {
     border-radius: 50%;
     height: 35px;
     width: 35px;
-}
-
-.search {
-    align-self: center;
-    background-color: blue;
 }
 
 input {
