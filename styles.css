@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -22,9 +22,16 @@ body {
 }
 
 .sidebar-item {
+    color: #FFFFFF;
     display: grid;
+    font-size: 15px;
+    font-weight: 900;
     grid-template-columns: 50px 1fr;
     align-items: center;
+}
+
+.sidebar-item p {
+    font-weight: 900;
 }
 
 .sidebar-item img {
